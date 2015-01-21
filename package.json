@@ -4,7 +4,7 @@
   "description": "Music sharing with friends",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "meh"
   },
   "repository": {
     "type": "git",
@@ -12,8 +12,21 @@
   },
   "author": "Paul T Gaudin",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/polyg314/TuneCoop/issues"
+  "dependencies" : {
+     "static-favicon": "1.0.0",
+     "morgan": "~1.0.0",
+     "debug": "~0.7.4",
+     "jade": "~1.3.0",
+     "body-parser": "^1.10.0",
+     "cookie-parser": "^1.3.3",
+     "ejs": "^1.0.0",
+     "express": "^4.10.5",
+     "express-session": "^1.9.3",
+     "method-override": "^2.3.0",
+     "passport": "^0.2.1",
+     "passport-local": "^1.0.0",
+     "path": "^0.4.9",
+     "pg": "^4.1.0"
   },
   "homepage": "https://github.com/polyg314/TuneCoop"
 }
